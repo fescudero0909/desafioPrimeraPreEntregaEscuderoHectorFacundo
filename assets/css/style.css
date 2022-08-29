@@ -4,5 +4,9 @@
   box-sizing: border-box; }
 
 .bg-color-nav {
-    background-color: #68030f; 
-}
+  background-color: #68030f; }
+
+.btn {
+  border-radius: 5%;
+  background-color: #b02505;
+  margin: 10px; }
