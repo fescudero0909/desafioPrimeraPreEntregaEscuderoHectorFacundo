@@ -6,6 +6,9 @@
 .bg-color-nav {
   background-color: #68030f; }
 
+.carrito {
+  width: 40px; }
+
 .btn {
   border-radius: 5%;
   background-color: #b02505;
