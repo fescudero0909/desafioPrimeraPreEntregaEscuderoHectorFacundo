@@ -26,11 +26,11 @@ class Product {
     }
 };
 
-const coffe1 = new Product ('Bolivia', '250 gr', 2000);
-const coffe2 = new Product ('Bolivia Caturra 48', '250gr', 2500 );
-const coffe3 = new Product ('Bolivia Caturra 72', '250gr', 2500 );
-const coffe4 = new Product ('Bolivia Caturra NAT', '250gr', 1500 );
-const coffe5 = new Product ('Brasil', '250gr', 3000 );
+const coffe1 = new Product ('Bolivia', 250, 2000);
+const coffe2 = new Product ('Bolivia Caturra 48', 250, 2500 );
+const coffe3 = new Product ('Bolivia Caturra 72', 250, 2500 );
+const coffe4 = new Product ('Bolivia Caturra NAT', 250, 1500 );
+const coffe5 = new Product ('Brasil', 250, 3000 );
 
 
 
@@ -69,7 +69,7 @@ const pluIVA = (total) => total * 1.21;
 
 // ver a traves del MAP la lista de productos
 
-let productList = products.map ((Product) => "- " + Product.name + " " + Product.weight + " " + '$' + Product.price);
+let productList = products.map ((Product) => "- " + Product.name + " " + Product.weight +' gr' + " " + '$' + Product.price);
 alert ('Welcome ' + user + ' These are our products:' + '\n' +  productList.join(" \n "));
 
     
